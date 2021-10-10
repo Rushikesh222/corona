@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css\style2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo"><h1> Enter the details</h1></div>
+			<div class="main">
+				<form action="connect.php" method="post">
+					<div id="name">
+						<h2 class="name">Name</h2>
+						<input class="firstname" type="text" name="first_name"><br>
+						<label class="firstlable">first name</label><br>
+						<input class="lastname" type="text" name="last_name"><br>
+						<label class="lastlable">last name</label><br>
+					</div>
+					<h2 class="name">Phone</h2>	
+						<input class="mobileno" type="text" name="mobile_number"><br>
+					<h2 class="name">Email</h2>
+						<input class="emailid" type="text" name="email"><br>
+						<h2 class="name">Location</h2>
+						<select class="option1" name="location">
+							<option disabled="disabled" selected="selected">--Choose Option--</option>
+							<option value="s">sinnar</option>
+							<option value="n">nashik</option>
+						</select>
+							
+							
+						<h3 class="name">Subject</h3>
+						<select class="option2" name="Subject">
+							<option disabled="disabled" selected="selected">--Choose Option--</option>
+							<option value="b">Bed</option>
+							<option value="bo">Bed With Oxygen</option>
+							<option value="bv">Bed With Oxygen+Ventilator</option>
+							<option value="m">Medicine</option>
+							
+							
+
+						</select>
+						<h4 class="name">Address</h4>
+						<textarea class="address" name="address" rows="6" cols="50"></textarea><br>
+						<input type="submit" name="Submit" class="btnone">
+
+
+
+						
+					
+				</form>
+				
+
+			</div>
+		</nav>
+		
+	</header>
+
+</body>
+</html>
